@@ -1,0 +1,71 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  width: 100%;
+  font-size: 16px;
+  background: linear-gradient(235deg, #08dd4f, #245efd, #f54d0b);
+}
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  position: relative;
+}
+.Todo_app {
+  padding: 25px 20px;
+  height: 50%;
+  width: 60%;
+  background-color: white;
+  border-radius: 6px;
+}
+h2 {
+  padding: 20px;
+  color: darkblue;
+  font-size: 25px;
+}
+#Input_box {
+  padding: 15px 30px;
+
+  outline: none;
+  font-size: 20px;
+  border-radius: 15px;
+  width: 90%;
+  background-color: rgb(219, 247, 247);
+  position: relative;
+}
+.btn {
+  padding: 15px 30px;
+
+  outline: none;
+  font-size: 20px;
+  border-radius: 48%;
+  position: absolute;
+  right: 25%;
+  background-color: #f54d0b;
+}
+button:hover {
+  background-color: #45a049;
+}
+
+#task-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.task {
+  padding: 10px;
+  margin-bottom: 5px;
+  border: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
